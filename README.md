@@ -9,12 +9,12 @@
 
 ### пример класса 
      class Cat:
-	     def __init__(self, color, age, name):
-		     self.color = color
-			 self.age = age
-			 self.name = name
-	    def draw():
-		    print(f"{self.name} is f{self.color} and is f{self.age} old.")
+         def __init__(self, color, age, name):
+	     self.color = color
+             self.age = age
+	     self.name = name
+	def draw():
+            print(f"{self.name} is f{self.color} and is f{self.age} old.")
 
 #### Создание объекта
     pet = Cat("Red", "7", "Fluffy")
