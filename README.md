@@ -18,4 +18,4 @@
 
 #### Создание объекта
     pet = Cat("Red", "7", "Fluffy")
-    pet.bark()  
+    pet.draw()  
